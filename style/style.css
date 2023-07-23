@@ -1,0 +1,31 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:90%;
+	text-align:center;
+	padding:30px;
+	margin:50px;
+	box-shadow: 2px 3px 6px 5px #cccccc61;
+}
+.progress{
+	background-color:#f0f2f2;
+	border:1px solid #f0f2f2;
+	height:20px;
+	margin-bottom:15px;
+	border-radius:5px;
+}
+.green{
+	background: linear-gradient(to right,  #006600 25%, #ccc 25%);
+}
+.blue{
+	background: linear-gradient(to right, #33bbff 45%, #ccc 25%);
+}
+.yellow{
+	background: linear-gradient(to right, #ffcc00 75%, #ccc 25%);
+}
+.red{
+	background: linear-gradient(to right,  #cc0000 100%, #ccc 25%);
+}
